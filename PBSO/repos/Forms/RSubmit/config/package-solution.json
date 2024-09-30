@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "submit-form-client-side-solution",
+    "id": "8d461e20-67e8-4d09-92ec-dff921c2e8b8",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "SubmitForm description"
+      },
+      "longDescription": {
+        "default": "SubmitForm description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "submit-form Feature",
+        "description": "The feature that activates elements of the submit-form solution.",
+        "id": "dd7e8878-310e-4cfc-a74f-789cfd0642e9",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/submit-form.sppkg"
+  }
+}

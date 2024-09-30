@@ -1,0 +1,53 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://wardremodeling.sharepoint.com/sites/dev/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "e8bd5e93-391c-4258-8779-210c0dc72d6b",
+        "PageType": 8,
+        "RootFolder": "/sites/dev/Lists/Business",
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "testCustom_NewForm": {
+      "pageUrl": "https://wardremodeling.sharepoint.com/sites/dev/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "e8bd5e93-391c-4258-8779-210c0dc72d6b",
+        "PageType": 8,
+        "RootFolder": "/sites/dev/Lists/Business",
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "testCustom_EditForm": {
+      "pageUrl": "https://wardremodeling.sharepoint.com/sites/dev/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "e8bd5e93-391c-4258-8779-210c0dc72d6b",
+        "PageType": 6,
+        "RootFolder": "/sites/dev/Lists/Business",
+        "ID": 1,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "testCustom_ViewForm": {
+      "pageUrl": "https://wardremodeling.sharepoint.com/sites/dev/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "e8bd5e93-391c-4258-8779-210c0dc72d6b",
+        "PageType": 4,
+        "RootFolder": "/sites/dev/Lists/Business",
+        "ID": 1,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    }
+  }
+}

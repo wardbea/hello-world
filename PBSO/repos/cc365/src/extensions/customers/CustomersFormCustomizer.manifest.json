@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-extension-manifest.schema.json",
+
+  "id": "7fb8044d-97d5-48f1-ab4e-ec05c245736c",
+  "alias": "CustomersFormCustomizer",
+  "componentType": "Extension",
+  "extensionType": "FormCustomizer",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false
+}

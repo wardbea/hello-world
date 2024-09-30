@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "formcustom-client-side-solution",
+    "id": "85b0f7ba-3f37-4ea0-afbc-db270adb2f33",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "formcustom description"
+      },
+      "longDescription": {
+        "default": "formcustom description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "formcustom Feature",
+        "description": "The feature that activates elements of the formcustom solution.",
+        "id": "62f26dcd-ae10-464a-8417-b46173d234b0",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/formcustom.sppkg"
+  }
+}

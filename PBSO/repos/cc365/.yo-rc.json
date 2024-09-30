@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "20.16.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "cc-formcustomizer-customers",
+    "libraryId": "0edd974d-8ffb-47ad-92a2-020e4db6e3de",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "cc-formcustomizer-customers",
+    "solutionShortDescription": "cc-formcustomizer-customers description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "FormCustomizer"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "appform-form-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/appform/AppformFormCustomizer.js",
+          "manifest": "./src/extensions/appform/AppformFormCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AppformFormCustomizerStrings": "lib/extensions/appform/loc/{locale}.js"
+  }
+}

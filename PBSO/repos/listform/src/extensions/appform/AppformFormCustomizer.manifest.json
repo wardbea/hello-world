@@ -1,0 +1,15 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-extension-manifest.schema.json",
+
+  "id": "703d8130-7795-45b0-bc01-620b93d0bb18",
+  "alias": "AppformFormCustomizer",
+  "componentType": "Extension",
+  "extensionType": "FormCustomizer",
+
+ 
+  "version": "*",
+  "manifestVersion": 2,
+
+
+  "requiresCustomScript": false
+}
